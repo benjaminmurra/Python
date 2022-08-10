@@ -1,0 +1,12 @@
+Support=0.4
+Confidence=0.4
+
+Rules:
+Rule#1: {PlayTennis = P} => {Windy = FALSE}(Support = 0.64, Confidence = 1.00)
+
+Rule#2: {PlayTennis = P} => {Humidity = normal}(Support = 0.64, Confidence = 1.00)
+
+Rule#3: {Humidity = normal} => {PlayTennis = P}(Support = 0.50, Confidence = 1.00)
+
+Rule#4: {Windy = FALSE} => {PlayTennis = P}(Support = 0.57, Confidence = 1.00)
+
